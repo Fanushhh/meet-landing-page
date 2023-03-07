@@ -1,0 +1,58 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.description{
+    padding: 0 1.5rem;
+}
+
+.descriptionImgContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+    
+    img{
+        border-radius: .5rem;
+        
+    }
+    @include for-tablet{
+        grid-template-columns: repeat(4,1fr);
+    }
+    @include for-desktop{
+        img{
+            max-width: 255px;
+        }
+    }
+
+    
+}
+.desc{
+    text-align: center;
+    max-width: 570px;
+    
+    .purpose{
+        color: $dark-blue;
+        text-transform: uppercase;
+        font-weight: $extra-bold;
+        letter-spacing: 4px;
+        padding-bottom: 1.5rem;
+        
+    }
+
+    .catchphrase{
+        font-size: 2rem;
+        font-weight: $extra-bold;
+        color:$darkest-blue;
+        padding-bottom: 2rem;
+        line-height: 2.25rem;
+        max-width: 445px;
+        margin:0 auto;
+        @include for-tablet{
+            font-size: 2.5rem;
+            line-height: 2.75rem;
+            
+        }
+    }
+    
+}
+
+
