@@ -23,7 +23,7 @@
     .hrRule{
         position: absolute;
         left:50%;
-        top:-150px;
+        top:-140px;
         transform: translate(-50%, -50%);
         background-color:$neutral-white;
         color:$desaturated-purple;
@@ -68,8 +68,12 @@
 }
 .cta .buttonsContainer .downloadBtn{
     background-color: $purple;
-    
     span{
         color:$bright-purple;
     }
+    
+}
+.cta .buttonsContainer .downloadBtn:hover{
+    background-color: #b18bdd;
+    cursor: pointer;
 }
