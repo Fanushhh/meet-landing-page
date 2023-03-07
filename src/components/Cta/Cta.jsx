@@ -12,7 +12,7 @@ export default function Cta({props}){
                     <button className='downloadBtn'>{props.download} <span>{props.version}</span></button>
                 </div>
             </div>
-            <p className='hrRule'>{"0" + props.hrtext++}</p>
+            <p className='hrRule'>02</p>
         </section>
     )
 }
