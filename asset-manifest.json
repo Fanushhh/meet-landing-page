@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/meet-landing-page/static/css/main.44f97779.css",
+    "main.js": "/meet-landing-page/static/js/main.62db267e.js",
+    "static/media/image-hero-right.png": "/meet-landing-page/static/media/image-hero-right.95e30a4c336196db688f.png",
+    "static/media/image-hero-left.png": "/meet-landing-page/static/media/image-hero-left.40626e782bf59ca427b5.png",
+    "static/media/image-footer.jpg": "/meet-landing-page/static/media/image-footer.b047b7977a3a98b6fbca.jpg",
+    "index.html": "/meet-landing-page/index.html",
+    "main.44f97779.css.map": "/meet-landing-page/static/css/main.44f97779.css.map",
+    "main.62db267e.js.map": "/meet-landing-page/static/js/main.62db267e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f97779.css",
+    "static/js/main.62db267e.js"
+  ]
+}
